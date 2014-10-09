@@ -1,0 +1,239 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/**
+ * HTML5 display-role reset for older browsers
+ */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+/**
+ * End of Reset
+ */
+
+/**
+ * Start of Custom Styles
+ */
+body {
+    /*background-color: LightGray;*/
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+div {
+    /*border: 1px solid Chocolate;*/
+}
+.content {
+    padding: 0 15px;
+    width: 970px;
+    margin: 0 auto;
+}
+
+/**
+ * Navigation Section
+ */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+}
+.top-navigation > .content {
+    height: 70px;
+}
+.top-navigation .logo {
+    height: 70px;
+}
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+/**
+ * Introduction Section
+ */
+.introduction {
+    background-image: url('../img/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 735px;
+    overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h1 {
+    margin-top: 280px;
+    font-size: 50px;
+}
+.introduction h3 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+/**
+ * The buttons
+ */
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.introduction .half {
+    width: 49%;
+    padding: 0 15px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.half.learn {
+    text-align: right;
+}
+.half.watch {
+    text-align: left;
+    padding: 16px 24px;
+    font-weight: 500;
+}
+.introduction .learn button {
+    width: 155px;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 24px;
+    color: white;
+    font-size: 18px;
+}
+:focus {
+    outline: none;
+}
+.introduction .learn button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+.introduction .watch img {
+    position: relative;
+    top: 10px;
+}
+
+/**
+ * The Three Case Images
+ */
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 160px;
+}
+.cases .content {
+    margin-top: 126px;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 44px;
+    margin: 26px 0 50px;
+    font-weight: 300;
+}
+.cases .devices {
+    display: flex;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 40px 0px 30px;
+
+}
+.cases .devices p {
+    font-weight: 300;
+    font-size: 21px;
+}
+
+/**
+ * Footer
+ */
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 21px 0;
+}
+.social .icons > li {
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 20px 5px;
+    border: 1px solid #eaebec;
+    padding: 10px 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #838994;
+}
