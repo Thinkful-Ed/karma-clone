@@ -53,6 +53,9 @@ div {
     padding: 0 0.938rem;
     margin: 0 auto;
 }
+:focus {
+    outline: none;
+}
 
 /**
  * Navigation Section
@@ -135,31 +138,13 @@ div {
 }
 .half.watch {
     text-align: left;
-    padding: 1rem 1.5rem;
+    padding: 1rem 0.938rem;
     font-weight: 500;
-}
-.introduction .learn button {
-    width: 9.688rem;
-    background-color: #f15a29;
-    border-color: #f15a29;
-    text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 1rem 1.5rem;
-    color: white;
-    font-size: 1.125rem;
-}
-:focus {
-    outline: none;
-}
-.introduction .learn button:hover {
-    background-color: #d9400e;
-    border-color: #cf3d0e;
-    cursor: pointer;
 }
 .introduction .watch img {
     position: relative;
     top: 0.625rem;
+    margin-right: 5px;
 }
 
 /**
@@ -268,9 +253,10 @@ div {
     position: absolute;
     height: 90px;
     bottom: 0;
-    width: 30px;
+    width: 52px;
     left: 50%;
     z-index: 1000;
+    margin-left: -26px;
 }
 .bouncing-arrow img {
     -webkit-animation: bounce 1.2s ease-in-out infinite alternate;
@@ -300,17 +286,6 @@ div {
     padding-top: 84px;
     overflow: auto;
 }
-.buy-now button {
-    width: 9.688rem;
-    background-color: #f15a29;
-    border-color: #f15a29;
-    text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 1rem 1.5rem;
-    color: white;
-    font-size: 1.125rem;
-}
 .buy-now .adjustable {
     width: 240px;
 }
@@ -326,5 +301,25 @@ div {
     line-height: 1.5;
     color: #4c5058;
     margin-bottom: 20px;
+}
+
+/**
+ * button
+ */
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
 
