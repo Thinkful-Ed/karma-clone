@@ -35,7 +35,9 @@ ol, ul {
 /**
  * End of Reset
  */
-
+section {
+    border: 1px solid blue;
+}
 /**
  * Start of Custom Styles
  */
@@ -255,3 +257,39 @@ div {
         width: 60%;
     }
 }
+
+/**
+ * Bouncing Arrow
+ */
+.introduction {
+    position: relative;
+}
+.bouncing-arrow {
+    position: absolute;
+    height: 90px;
+    bottom: 0;
+    width: 30px;
+    left: 50%;
+    z-index: 1000;
+}
+.bouncing-arrow img {
+    -webkit-animation: bounce 1.2s ease-in-out infinite alternate;
+    -o-animation: bounce 1.2s ease-in-out infinite alternate;
+    animation: bounce 1.2s ease-in-out infinite alternate;
+}
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 30px;}
+}
+/* Standard syntax */ 
+@keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 30px;}
+}
+
+/**
+ * Buy Now
+ */
+
+
