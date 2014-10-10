@@ -288,6 +288,7 @@ div {
 }
 .buy-now .adjustable {
     width: 240px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
 }
 .buy-now h2 {
     font-weight: 400;
@@ -301,6 +302,34 @@ div {
     line-height: 1.5;
     color: #4c5058;
     margin-bottom: 20px;
+}
+
+/**
+ * Footer Shortcuts
+ */
+.shortcuts {
+    margin-top: 50px;
+}
+.shortcuts .list {
+    width: 32.9%;
+    display: inline-block;
+    text-align: left;
+    font-size: 0.97em;
+    vertical-align: top;
+}
+.shortcuts .list h4 {
+    margin: 1em 0px;
+}
+.shortcuts .list p {
+    margin: .5em 0px;
+    font-weight: lighter;
+}
+.shortcuts .list a {
+    color: #838994;
+    text-decoration: none;
+}
+.shortcuts .list a:hover {
+    color: #f15a29;
 }
 
 /**
