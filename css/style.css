@@ -35,9 +35,6 @@ ol, ul {
 /**
  * End of Reset
  */
-section {
-    border: 1px solid blue;
-}
 /**
  * Start of Custom Styles
  */
@@ -251,12 +248,12 @@ div {
 }
 .bouncing-arrow {
     position: absolute;
-    height: 90px;
+    height: 5.625rem;
     bottom: 0;
-    width: 52px;
+    width: 3.250rem;
     left: 50%;
     z-index: 1000;
-    margin-left: -26px;
+    margin-left: -1.625rem;
 }
 .bouncing-arrow img {
     -webkit-animation: bounce 1.2s ease-in-out infinite alternate;
@@ -266,12 +263,12 @@ div {
 /* Chrome, Safari, Opera */ 
 @-webkit-keyframes bounce {
     0%, 100% {margin-top: 0px;}
-    50% {margin-top: 30px;}
+    50% {margin-top: 2rem;}
 }
 /* Standard syntax */ 
 @keyframes bounce {
     0%, 100% {margin-top: 0px;}
-    50% {margin-top: 30px;}
+    50% {margin-top: 2rem;}
 }
 
 /**
@@ -283,11 +280,11 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
-    padding-top: 84px;
+    padding-top: 5.250rem;
     overflow: auto;
 }
 .buy-now .adjustable {
-    width: 240px;
+    width: 15rem;
     text-shadow: 0 1px 0 rgba(255,255,255,0.8);
 }
 .buy-now h2 {
@@ -301,14 +298,14 @@ div {
     font-size: 1.15rem;
     line-height: 1.5;
     color: #4c5058;
-    margin-bottom: 20px;
+    margin-bottom: 1.250rem;
 }
 
 /**
  * Footer Shortcuts
  */
 .shortcuts {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 .shortcuts .list {
     width: 32.9%;
