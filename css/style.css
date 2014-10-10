@@ -62,6 +62,7 @@ div {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #DDD;
+    z-index: 9999;
 }
 .top-navigation > .content {
     height: 4.375rem;
@@ -190,7 +191,6 @@ div {
     font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
-
 }
 .cases .devices p {
     font-weight: 300;
@@ -291,5 +291,40 @@ div {
 /**
  * Buy Now
  */
-
+.buy-now {
+    background-image: url('../img/buy-now-bg.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    padding-top: 84px;
+    overflow: auto;
+}
+.buy-now button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+.buy-now .adjustable {
+    width: 240px;
+}
+.buy-now h2 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    color: #f15a29;
+    margin: 2.5rem 0px 1.875rem;
+}
+.buy-now p {
+    font-weight: 300;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    color: #4c5058;
+    margin-bottom: 20px;
+}
 
