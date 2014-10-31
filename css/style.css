@@ -49,6 +49,7 @@ div {
 .content {
     padding: 0 0.938rem;
     margin: 0 auto;
+    min-width: 37.5rem;
 }
 :focus {
     outline: none;
