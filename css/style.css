@@ -152,6 +152,8 @@ div {
     font-weight: 300;
 }
 .cases .devices {
+    -webkit-display:flex;
+    -ms-display:flex;
     display: flex;
 }
 .cases .devices > li {
