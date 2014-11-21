@@ -131,19 +131,6 @@ div {
     font-size: 1.125rem;
     line-height: 1.2;
 }
-.half.learn {
-    text-align: right;
-}
-.half.watch {
-    text-align: left;
-    padding: 1rem 0.938rem;
-    font-weight: 500;
-}
-.introduction .watch img {
-    position: relative;
-    top: 0.625rem;
-    margin-right: 5px;
-}
 
 /**
  * The Three Case Images
@@ -151,7 +138,7 @@ div {
 .cases {
     background-color: #fff;
     overflow: hidden;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 .cases .content {
     margin-top: 7.875rem;
@@ -165,6 +152,8 @@ div {
     font-weight: 300;
 }
 .cases .devices {
+    -webkit-display:flex;
+    -ms-display:flex;
     display: flex;
 }
 .cases .devices > li {
@@ -241,26 +230,6 @@ div {
     }
 }
 
-/**
- * Bouncing Arrow
- */
-.introduction {
-    position: relative;
-}
-.bouncing-arrow {
-    position: absolute;
-    height: 5.625rem;
-    bottom: 0;
-    width: 3.250rem;
-    left: 50%;
-    z-index: 1000;
-    margin-left: -1.625rem;
-}
-.bouncing-arrow img {
-    -webkit-animation: bounce 1.2s ease-in-out infinite alternate;
-    -o-animation: bounce 1.2s ease-in-out infinite alternate;
-    animation: bounce 1.2s ease-in-out infinite alternate;
-}
 /* Chrome, Safari, Opera */ 
 @-webkit-keyframes bounce {
     0%, 100% {margin-top: 0px;}
@@ -272,63 +241,6 @@ div {
     50% {margin-top: 2rem;}
 }
 
-/**
- * Buy Now
- */
-.buy-now {
-    background-image: url('../img/buy-now-bg.jpg');
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45.938rem;
-    padding-top: 5.250rem;
-    overflow: auto;
-}
-.buy-now .adjustable {
-    width: 15rem;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
-}
-.buy-now h2 {
-    font-weight: 400;
-    font-size: 1.563rem;
-    color: #f15a29;
-    margin: 2.5rem 0px 1.875rem;
-}
-.buy-now p {
-    font-weight: 300;
-    font-size: 1.15rem;
-    line-height: 1.5;
-    color: #4c5058;
-    margin-bottom: 1.250rem;
-}
-
-/**
- * Footer Shortcuts
- */
-.shortcuts {
-    margin-top: 3.125rem;
-}
-.shortcuts .list {
-    width: 32.9%;
-    display: inline-block;
-    text-align: left;
-    font-size: 0.97em;
-    vertical-align: top;
-}
-.shortcuts .list h4 {
-    margin: 1em 0px;
-}
-.shortcuts .list p {
-    margin: .5em 0px;
-    font-weight: lighter;
-}
-.shortcuts .list a {
-    color: #838994;
-    text-decoration: none;
-}
-.shortcuts .list a:hover {
-    color: #f15a29;
-}
 
 /**
  * button
