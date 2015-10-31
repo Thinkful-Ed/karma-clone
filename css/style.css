@@ -1,50 +1,9 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-}
-/**
- * HTML5 display-role reset for older browsers
- */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-/**
- * End of Reset
- */
 /**
  * Start of Custom Styles
  */
 body {
-    /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
-}
-div {
-    /*border: 1px solid Chocolate;*/
 }
 .content {
     padding: 0 0.938rem;
@@ -54,7 +13,7 @@ div {
 :focus {
     outline: none;
 }
-
+ul{list-style:none;padding:0;}
 /**
  * Navigation Section
  */
@@ -94,9 +53,7 @@ div {
  * Introduction Section
  */
 .introduction {
-    background-image: url('../img/first-background.jpg');
-    background-position: center bottom;
-    background-repeat: no-repeat;
+    background: url('../img/first-background.jpg') no-repeat center bottom;
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
@@ -173,6 +130,7 @@ div {
     overflow: auto;
     padding-bottom: 9.375rem;
     text-align: center;
+    padding-bottom:0;
 }
 .social hr {
     border: 0;
@@ -188,6 +146,7 @@ div {
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+    box-sizing:border-box;
 }
 .social .icons > li:hover {
     cursor: pointer;
